@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
     },
 
     input: {
+      flex:1,
       backgroundColor: '#1f1e25',
       height:56,
       color:'#fdfcfe',
@@ -38,5 +39,13 @@ export const styles = StyleSheet.create({
       backgroundColor:"#31CF67",
       justifyContent:'center',
       alignItems:'center',
+    },
+
+    form: {
+      marginTop:36,
+      marginBottom:42,
+      gap: 12,
+      width: '100%',
+      flexDirection:'row',
     },
   })
